@@ -18,8 +18,6 @@ class StudentsController < ApplicationController
 
   def show
     @student = Student.find(params[:id])
-    @student = @post.student
-
   end
 
   def index
